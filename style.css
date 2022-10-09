@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 1px;
+    font-weight: 550;
+}
+.calculator {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing:border-box;
+}
+#bmi {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.tulisan {
+    margin-left: 400px;
+    text-align: left;
+}
+#weight-input {
+    width: 40%;
+    border: 2px solid gray;
+    border-radius: 2px;
+}
+#height-input {
+    width: 40%;
+    border: 2px solid gray;
+    border-radius: 2px;
+}
+.submit {
+    
+    margin-right: 390px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 10px;
+    background: rgb(92, 89, 241);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#result {
+    text-align: center;
+}
